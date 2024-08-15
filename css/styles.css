@@ -88,6 +88,9 @@ nav {
 }
 
 /* MAIN */
+main{
+  padding-bottom: 2em;
+}
 
 /* Banner Principal - Inicio*/
 .hero {
@@ -1093,6 +1096,22 @@ footer {
     justify-content: center;
   }
 
+  /* Hero Internas */
+  .hero-productos, 
+  .hero-producto-individual, 
+  .hero-blog, 
+  .hero-contacto{
+    height: 30vh;
+  }
+
+  .hero-productos h1, 
+  .hero-producto-individual h1, 
+  .hero-blog h1, 
+  .hero-contacto h1{
+    font-size: 3.5em;
+    text-align: center;
+  }
+
   /* Beneficios */
   .beneficios{
     grid-template-columns: repeat(2, 1fr);
@@ -1219,6 +1238,37 @@ footer {
   .post-footer__social-icons{
     display: none;
   }
+
+  /* CONTACTO */
+  .main-contacto{
+    flex-direction: column;
+    padding: 0;
+    gap: 50px;
+  }
+
+  .main-contacto__info{
+    width: 100%;
+  }
+
+  .main-contacto__info__inner-datos{
+    flex-direction: column;
+  }
+
+  .main-contacto__info__inner-datos__list,
+  .main-contacto__info__inner-datos__image{
+    width: 90%;
+    margin: 1.5em 0 0 0;
+  }
+
+  .main-contacto__info__inner-datos__image img{
+    margin-top: 1.5em;
+    width: 80%;
+  }
+
+  .main-contacto__form{
+    width: 100%;
+    padding: 1.5em;
+  }
  }
 
 /* Dispositivos medianos */
@@ -1299,6 +1349,22 @@ footer {
 
   .hero__image img{
     width: 55vw;
+  }
+
+  /* Hero Internas */
+  .hero-productos, 
+  .hero-producto-individual, 
+  .hero-blog, 
+  .hero-contacto{
+    height: 30vh;
+  }
+
+  .hero-productos h1, 
+  .hero-producto-individual h1, 
+  .hero-blog h1, 
+  .hero-contacto h1{
+    font-size: 5em;
+    text-align: center;
   }
 
   /* Beneficios */
@@ -1431,6 +1497,21 @@ footer {
   .post-footer__social-icons{
     display: none;
   }
+  
+  /* CONTACTO */
+  .main-contacto{
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  .main-contacto__info{
+    width: 100%;
+  }
+
+  .main-contacto__form{
+    width: 100%;
+    padding: 1.5em;
+  }
  }
 
 /* Dispositivos grandes */
@@ -1455,6 +1536,22 @@ footer {
     width: 50%;
     max-height: 50vh;
     object-position: top;
+  }
+
+  /* Hero Internas */
+  .hero-productos, 
+  .hero-producto-individual, 
+  .hero-blog, 
+  .hero-contacto{
+    height: 30vh;
+  }
+
+  .hero-productos h1, 
+  .hero-producto-individual h1, 
+  .hero-blog h1, 
+  .hero-contacto h1{
+    font-size: 5em;
+    text-align: center;
   }
 
   /* Beneficios */
@@ -1518,6 +1615,11 @@ footer {
     margin-bottom: 2em;
   }
 
+  /* CONTACTO */
+  .main-contacto{
+    padding: 0;
+  }
+
  }
 
 /* Dispositivos XL */
@@ -1566,6 +1668,7 @@ footer {
   .horizontal-form__content form{
     margin-bottom: 2em;
   }
+  
  }
 
 /* Dispositivos XXL */
