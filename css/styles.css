@@ -1012,3 +1012,43 @@ footer {
   justify-content: space-between;
   border-top: 1px solid #d2b914;
 }
+
+/* MEDIA QUERIES */
+
+/* Dispositivos pequeños */
+@media (max-width: 600px) { 
+  /* Header */
+  .pre-header__social-icons,
+  .pre-header__contact{
+    display: none;
+  }
+
+  .pre-header{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar__logo{
+    width: 60vw;
+  }
+
+  .navbar-toggler{
+    border-color: #f7f691;
+  }
+  
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(247, 246, 145)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+ }
+
+/* Dispositivos medianos */
+@media (min-width: 768px) {  }
+
+/* Dispositivos grandes */
+@media (min-width: 992px) {  }
+
+/* Dispositivos XL */
+@media (min-width: 1200px) {  }
+
+/* Dispositivos XXL */
+@media (min-width: 1400px) {  }
