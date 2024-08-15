@@ -1137,7 +1137,7 @@ footer {
     "sale-ind-2"
     "sale-der"
     ;
-    padding: 2em 3.5em 4em 3.5em;
+    padding: 2em 1.5em 4em 1.5em;
   }
 
   .ofertas__horizontal-card, .ofertas__vertical-card{
@@ -1248,6 +1248,7 @@ footer {
 
   .main-contacto__info{
     width: 100%;
+    margin-top: 1.5em;
   }
 
   .main-contacto__info__inner-datos{
