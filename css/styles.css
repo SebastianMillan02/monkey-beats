@@ -584,7 +584,7 @@ label::after {
 }
 
 .cupon__box {
-  background-image: url("../images/cupon-descuento.png"),
+  background-image: url("../images/cupon-descuento.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
   background-blend-mode: multiply;
   background-size: cover;
