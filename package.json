@@ -1,0 +1,11 @@
+{
+  "name": "monkey_beats",
+  "version": "1.0.0",
+  "description": "![Logo](https://raw.githubusercontent.com/SebastianMillan02/monkey-beats/main/images/Monkey-Beats-Logo-Horizontal.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+//Mixin para Grid donde sus columnas y filas se generan con repeat()
+@mixin grid-repeat ($columns, $column-width, $rows, $row-height){
+    grid-template-columns: repeat($columns, $column-width);
+    grid-template-rows: repeat($rows, $row-height);
+}
