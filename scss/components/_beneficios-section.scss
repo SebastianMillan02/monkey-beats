@@ -1,9 +1,7 @@
 .beneficios {
   padding: 3.5em;
-  display: grid;
   gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
+  @include grid-repeat (4, 1fr, 2, auto);
   justify-content: center;
   align-items: baseline;
   color: $white;

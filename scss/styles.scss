@@ -7,13 +7,17 @@
 @import "utilities/mixins";
 
 //COMPONENTS
-@import "components/pre-header";
-@import "components/header";
+@import "components/beneficios-section";
 @import "components/button-solid";
 @import "components/button-underline";
-@import "components/beneficios-section";
 @import "components/footer";
+@import "components/header";
+@import "components/pre-header";
 
 //LAYOUT
 @import "layout/index";
+@import "layout/productos";
+@import "layout/producto-individual";
+@import "layout/blog";
+@import "layout/contacto";
 @import "layout/mediaqueries";

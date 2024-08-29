@@ -137,7 +137,8 @@
     transition: all 0.5s ease-out;
   }
 
-  &__image--horizontal:hover {
+  &__image--horizontal:hover,
+  &__image--horizontal--tablet:hover {
     transform: scale(1.05);
   }
 
@@ -233,19 +234,5 @@
     width: 40%;
     object-fit: contain;
     align-self: end;
-  }
-
-  input.form-control,
-  textarea.form-control,
-  label::after {
-    background-color: #fdfde9 !important;
-    border: none;
-    border-radius: 20px;
-    resize: none;
-  }
-
-  input.form-control:focus,
-  textarea.form-control:focus{
-    box-shadow: none;
   }
 }

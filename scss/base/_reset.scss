@@ -19,3 +19,17 @@ p {
 main {
   padding-bottom: 2em;
 }
+
+input.form-control,
+textarea.form-control,
+label::after {
+  background-color: $tone-50;
+  border: none;
+  border-radius: 20px;
+  resize: none;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  box-shadow: none;
+}
