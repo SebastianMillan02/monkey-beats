@@ -4,10 +4,11 @@
 
 # Monkey Beats
 
-Proyecto web de eCommerce que no solo ofrece moda con propósito, sino que también utiliza tecnología avanzada para asegurar una experiencia de usuario excepcional. Construcción con HTML y CSS para garantizar una estructura robusta y un diseño visualmente atractivo. Para lograr una interfaz responsiva y adaptable, se implementó Flexbox y Grid, lo que permite que el sitio funcione perfectamente en cualquier dispositivo.
+Proyecto web de eCommerce realizado como proyecto práctico para el curso de Desarrollo Web en Coderhouse, una tienda que no solo ofrece moda con propósito, sino que también utiliza tecnología avanzada para asegurar una experiencia de usuario excepcional. Construcción con HTML y CSS para garantizar una estructura robusta y un diseño visualmente atractivo. Para lograr una interfaz responsiva y adaptable, se implementó Flexbox y Grid, lo que permite que el sitio funcione perfectamente en cualquier dispositivo.
 
-Integración con Bootstrap para una rápida implementación de componentes interactivos y una apariencia profesional. Además, se ha adoptado el enfoque BEM (Block Element Modifier) en el desarrollo del CSS, asegurando que el código se mantenga limpio y organizado mientras se facilita su mantenimiento y escalabilidad.
+Se implementó Sass como preprocesador CSS y se incluyeron estrategias SEO on-page para un correcto estructuramiento del sitio en cuanto a accesibilidad. Integración con Bootstrap para una rápida implementación de componentes interactivos y una apariencia profesional. Además, se ha adoptado el enfoque BEM (Block Element Modifier) en el desarrollo del CSS, asegurando que el código se mantenga limpio y organizado mientras se facilita su mantenimiento y escalabilidad.
 
+El desarrollo ha sido publicado a través de Vercel y GitHub pages para una mejor visualización online.
 
 ## Sobre Monkey Beats
 
@@ -18,7 +19,8 @@ Explora nuestra colección y únete a la revolución de la moda con propósito. 
 
 ## Visita el eCommerce
 
-https://sebastianmillan02.github.io/monkey-beats/
+- GitHub Pages - https://sebastianmillan02.github.io/monkey-beats/
+- Vercel - https://monkey-beats.vercel.app/
 
 
 ## Autor
