@@ -38,3 +38,12 @@
     color: $white;
   }
 }
+
+//Mixin para generar un cuadrado con sus elementos justificados y alineados al centro
+@mixin square ($width, $height){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $width;
+  height: $height;
+}

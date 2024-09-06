@@ -317,9 +317,17 @@
   }
 
   .articulos {
-    padding: 3em;
+    padding: 2em;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
+    gap: 50px;
+
+    &__item {
+      &__image {
+        height: 35vh;
+        object-fit: cover;
+      }
+    }
   }
 
   //CONTACTO
@@ -374,6 +382,7 @@
     }
 
     .post-footer {
+      padding: 1.5em 3.2em;
       &__copyright-text {
         text-align: center;
       }
@@ -708,6 +717,14 @@
     padding: 3em;
     gap: 50px;
     @include grid-repeat(2, 1fr, 3, 1fr);
+    gap: 50px;
+
+    &__item {
+      &__image {
+        height: 30vh;
+        object-fit: cover;
+      }
+    }
   }
 
   //CONTACTO
@@ -922,6 +939,13 @@
   .articulos {
     padding: 2.5em;
     gap: 50px;
+
+    &__item {
+      &__image {
+        height: 35vh;
+        object-fit: cover;
+      }
+    }
   }
 
   //CONTACTO
@@ -984,6 +1008,16 @@
       }
     }
   }
+
+  //BLOG
+  .articulos {
+    &__item {
+      &__image {
+        height: 30vh;
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 //DISPOSITIVOS XXL
@@ -991,5 +1025,15 @@
   //OFERTAS
   .oferta__image--horizontal--tablet {
     display: none;
+  }
+
+  //BLOG
+  .articulos {
+    &__item {
+      &__image {
+        height: 30vh;
+        object-fit: cover;
+      }
+    }
   }
 }

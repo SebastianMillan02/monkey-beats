@@ -34,6 +34,29 @@ textarea.form-control:focus {
   box-shadow: none;
 }
 
+.back-to-top-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  border: 2px solid #3f2609;
+  border-radius: 50px;
+  background-color: #bf9a0f;
+  transition: all 0.2s ease-in-out;
+}
+.back-to-top-btn i {
+  font-size: larger;
+  color: #ffffff;
+}
+.back-to-top-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 .beneficios {
   padding: 3.5em;
   gap: 20px;
@@ -129,7 +152,7 @@ footer .footer__main-menu .navbar__menu, footer .footer__legal-menu .navbar__men
 footer .post-footer {
   display: flex;
   align-items: center;
-  padding: 1.5em 3em;
+  padding: 1.5em 6em;
   justify-content: space-between;
   border-top: 1px solid #ddc215;
 }
@@ -856,6 +879,8 @@ footer .post-footer__social-icon {
 }
 .articulos__item__image {
   width: 100%;
+  height: 40vh;
+  object-fit: cover;
   border-radius: 25px;
   margin-bottom: 1.5em;
 }
@@ -1234,9 +1259,14 @@ footer .post-footer__social-icon {
     font-size: 2.5em;
   }
   .articulos {
-    padding: 3em;
+    padding: 2em;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
+    gap: 50px;
+  }
+  .articulos__item__image {
+    height: 35vh;
+    object-fit: cover;
   }
   .main-contacto {
     flex-direction: column;
@@ -1272,6 +1302,9 @@ footer .post-footer__social-icon {
     margin: auto;
     padding: 0.5em;
     max-width: 50%;
+  }
+  footer .post-footer {
+    padding: 1.5em 3.2em;
   }
   footer .post-footer__copyright-text {
     text-align: center;
@@ -1547,6 +1580,11 @@ footer .post-footer__social-icon {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+  }
+  .articulos__item__image {
+    height: 30vh;
+    object-fit: cover;
   }
   .main-contacto {
     flex-direction: column;
@@ -1712,6 +1750,10 @@ footer .post-footer__social-icon {
     padding: 2.5em;
     gap: 50px;
   }
+  .articulos__item__image {
+    height: 35vh;
+    object-fit: cover;
+  }
   .main-contacto {
     padding: 0;
   }
@@ -1748,10 +1790,18 @@ footer .post-footer__social-icon {
   .horizontal-form__content form {
     margin-bottom: 2em;
   }
+  .articulos__item__image {
+    height: 30vh;
+    object-fit: cover;
+  }
 }
 @media (min-width: 1400px) {
   .oferta__image--horizontal--tablet {
     display: none;
+  }
+  .articulos__item__image {
+    height: 30vh;
+    object-fit: cover;
   }
 }
 
